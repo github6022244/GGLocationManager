@@ -1,0 +1,6 @@
+framework module GGLocationManager {
+  umbrella header "GGLocationManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

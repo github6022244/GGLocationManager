@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049E1B19A2CD0C39D7BC89C68E73D79B /* Pods-GGLocationManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA46CCB864E13C6027E5EB5C5991F40 /* Pods-GGLocationManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0963964CFC3E3AE1912F9DA0134FE13B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDBAC857FAE172411DE1506766AF53F /* ReplaceMe.m */; };
+		11AF245AAF4A7458C331096772994BD0 /* GGLocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C9CB8D125A8373F298FD3013542906 /* GGLocationManager-dummy.m */; };
+		2AA45B9B99AAB99779E86457A14E728D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */; };
+		7F053A6043BDD7369BC6D897F3972100 /* GGLocationManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4FB21BE56B846D358FF40908007358 /* GGLocationManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		911404968958DEC6BA9B41BDBD5A6D76 /* Pods-GGLocationManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B3F01ACDAB14C3F14420A9FEA45333 /* Pods-GGLocationManager_Example-dummy.m */; };
+		AD3DB3239C630C13F818F56F9BA812D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */; };
+		BB4B19F12C88F1F5A5DC76A4D0FC3BE0 /* Pods-GGLocationManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0184E8D65B61B4F58E1688DD3BA4B5E /* Pods-GGLocationManager_Tests-dummy.m */; };
+		D6F8844ACE4C5C798C14AF581979BDE9 /* Pods-GGLocationManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D350A06CA8375157BCC01855A319F1 /* Pods-GGLocationManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD21A2353FCD6F79E0B283D16904A33F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DEDCEC31A39BB5E0844CFDEC806539C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 143A40495F668E1DE0A529EBB5063D8B;
+			remoteInfo = GGLocationManager;
+		};
+		3E6E3A55F2778991E22A04D0321C59D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEBC401E9C8D93C5E81A344669E9C02B;
+			remoteInfo = "Pods-GGLocationManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12F258C514523CE5D912898E88E69F01 /* Pods-GGLocationManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGLocationManager_Example-Info.plist"; sourceTree = "<group>"; };
+		19BC4A4D3C9E826FD7A8F819E873C4B2 /* Pods-GGLocationManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGLocationManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		29B3F01ACDAB14C3F14420A9FEA45333 /* Pods-GGLocationManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGLocationManager_Example-dummy.m"; sourceTree = "<group>"; };
+		2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3DBE083A9BF58B1295C45E67C2CFD782 /* Pods-GGLocationManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGLocationManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		42F6A987A8A21EC81A22DD5B6B1F6858 /* Pods-GGLocationManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGLocationManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		4428EB95E04334A04F897A91B57207AF /* GGLocationManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGLocationManager.modulemap; sourceTree = "<group>"; };
+		4D7DFFEF9FCC6B35A122487BFEB872DD /* Pods-GGLocationManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGLocationManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		56A715693469653C99D88B03BA0F0274 /* Pods-GGLocationManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGLocationManager_Example"; path = Pods_GGLocationManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA46CCB864E13C6027E5EB5C5991F40 /* Pods-GGLocationManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGLocationManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6CD2AA7E3C8E0C771EED2ACADFA9E500 /* GGLocationManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGLocationManager-Info.plist"; sourceTree = "<group>"; };
+		70C9CB8D125A8373F298FD3013542906 /* GGLocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGLocationManager-dummy.m"; sourceTree = "<group>"; };
+		752B52FF8DE651E3739425E5932EEA64 /* GGLocationManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGLocationManager.release.xcconfig; sourceTree = "<group>"; };
+		76E34A4B4E70CB2E3249419706F4961E /* Pods-GGLocationManager_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGLocationManager_Tests"; path = Pods_GGLocationManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA930B213480EFA2E222E40176540E2 /* GGLocationManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGLocationManager.debug.xcconfig; sourceTree = "<group>"; };
+		816C6A65CB2803BD88335CB3BF79F67F /* Pods-GGLocationManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGLocationManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84740D85250EF3C8F816C8A6041E12C5 /* Pods-GGLocationManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGLocationManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84D350A06CA8375157BCC01855A319F1 /* Pods-GGLocationManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGLocationManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		88A60E15FF765705EE637DC350799D89 /* Pods-GGLocationManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGLocationManager_Example.modulemap"; sourceTree = "<group>"; };
+		96FADC53C0F722797B33819AE52202A1 /* GGLocationManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGLocationManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEA74979918EC2288CA6A32D3DD35587 /* Pods-GGLocationManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGLocationManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AF4FB21BE56B846D358FF40908007358 /* GGLocationManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGLocationManager-umbrella.h"; sourceTree = "<group>"; };
+		BAFBC5599879B6DFA0251ED3EC9F1788 /* Pods-GGLocationManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGLocationManager_Tests.modulemap"; sourceTree = "<group>"; };
+		BEB2397C170A68F78BADD974433D0DAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BEBF721F09752246F2C4D284F1DC93EC /* Pods-GGLocationManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGLocationManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF99D84387840301E31D678E113C381A /* Pods-GGLocationManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGLocationManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D269C033922203096647D99162EA2285 /* GGLocationManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGLocationManager; path = GGLocationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDBAC857FAE172411DE1506766AF53F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GGLocationManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E38C1E5F48F80503D3D73C4F78E9F05E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EC2468670D73B505C200897DD256D052 /* GGLocationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGLocationManager-prefix.pch"; sourceTree = "<group>"; };
+		F0184E8D65B61B4F58E1688DD3BA4B5E /* Pods-GGLocationManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGLocationManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		FB20A122CBFDA47AB93986458AF8C002 /* Pods-GGLocationManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGLocationManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		377B03642F8DCF5548FF6E14E442E9E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA45B9B99AAB99779E86457A14E728D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDF2C113FA42CC6FCE0E1AAC80C4FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD21A2353FCD6F79E0B283D16904A33F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1FC0878B7EF2FAC2414B7F759279DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3DB3239C630C13F818F56F9BA812D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AE0A7C17934650474BA81E2F6F8B77 /* Pods-GGLocationManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				88A60E15FF765705EE637DC350799D89 /* Pods-GGLocationManager_Example.modulemap */,
+				84740D85250EF3C8F816C8A6041E12C5 /* Pods-GGLocationManager_Example-acknowledgements.markdown */,
+				FB20A122CBFDA47AB93986458AF8C002 /* Pods-GGLocationManager_Example-acknowledgements.plist */,
+				29B3F01ACDAB14C3F14420A9FEA45333 /* Pods-GGLocationManager_Example-dummy.m */,
+				AEA74979918EC2288CA6A32D3DD35587 /* Pods-GGLocationManager_Example-frameworks.sh */,
+				12F258C514523CE5D912898E88E69F01 /* Pods-GGLocationManager_Example-Info.plist */,
+				84D350A06CA8375157BCC01855A319F1 /* Pods-GGLocationManager_Example-umbrella.h */,
+				CF99D84387840301E31D678E113C381A /* Pods-GGLocationManager_Example.debug.xcconfig */,
+				4D7DFFEF9FCC6B35A122487BFEB872DD /* Pods-GGLocationManager_Example.release.xcconfig */,
+			);
+			name = "Pods-GGLocationManager_Example";
+			path = "Target Support Files/Pods-GGLocationManager_Example";
+			sourceTree = "<group>";
+		};
+		2F1CDDD753761EB1590D3B24CF92D34D /* GGLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				DFDBAC857FAE172411DE1506766AF53F /* ReplaceMe.m */,
+				738B1B6A6A439DFB0E1212E3370E885A /* Pod */,
+				4F2AF23FE8BAAE51726DACDD237708A2 /* Support Files */,
+			);
+			name = GGLocationManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		46F644FE5B26A4AECC545A1C09F5F5A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D269C033922203096647D99162EA2285 /* GGLocationManager */,
+				56A715693469653C99D88B03BA0F0274 /* Pods-GGLocationManager_Example */,
+				76E34A4B4E70CB2E3249419706F4961E /* Pods-GGLocationManager_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F2AF23FE8BAAE51726DACDD237708A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4428EB95E04334A04F897A91B57207AF /* GGLocationManager.modulemap */,
+				70C9CB8D125A8373F298FD3013542906 /* GGLocationManager-dummy.m */,
+				6CD2AA7E3C8E0C771EED2ACADFA9E500 /* GGLocationManager-Info.plist */,
+				EC2468670D73B505C200897DD256D052 /* GGLocationManager-prefix.pch */,
+				AF4FB21BE56B846D358FF40908007358 /* GGLocationManager-umbrella.h */,
+				7EA930B213480EFA2E222E40176540E2 /* GGLocationManager.debug.xcconfig */,
+				752B52FF8DE651E3739425E5932EEA64 /* GGLocationManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GGLocationManager";
+			sourceTree = "<group>";
+		};
+		738B1B6A6A439DFB0E1212E3370E885A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				96FADC53C0F722797B33819AE52202A1 /* GGLocationManager.podspec */,
+				E38C1E5F48F80503D3D73C4F78E9F05E /* LICENSE */,
+				BEB2397C170A68F78BADD974433D0DAE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		760841F0415B4FB88955A6D326C2C2CD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F1CDDD753761EB1590D3B24CF92D34D /* GGLocationManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7AECBA61365544F357B06DE1C8710425 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A70ECBC1399573921CD69DA3FB8A71CC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18AE0A7C17934650474BA81E2F6F8B77 /* Pods-GGLocationManager_Example */,
+				C3E29FBA3E897FE0D6D9B284F8FB114A /* Pods-GGLocationManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C3E29FBA3E897FE0D6D9B284F8FB114A /* Pods-GGLocationManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BAFBC5599879B6DFA0251ED3EC9F1788 /* Pods-GGLocationManager_Tests.modulemap */,
+				816C6A65CB2803BD88335CB3BF79F67F /* Pods-GGLocationManager_Tests-acknowledgements.markdown */,
+				BEBF721F09752246F2C4D284F1DC93EC /* Pods-GGLocationManager_Tests-acknowledgements.plist */,
+				F0184E8D65B61B4F58E1688DD3BA4B5E /* Pods-GGLocationManager_Tests-dummy.m */,
+				42F6A987A8A21EC81A22DD5B6B1F6858 /* Pods-GGLocationManager_Tests-Info.plist */,
+				5EA46CCB864E13C6027E5EB5C5991F40 /* Pods-GGLocationManager_Tests-umbrella.h */,
+				3DBE083A9BF58B1295C45E67C2CFD782 /* Pods-GGLocationManager_Tests.debug.xcconfig */,
+				19BC4A4D3C9E826FD7A8F819E873C4B2 /* Pods-GGLocationManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-GGLocationManager_Tests";
+			path = "Target Support Files/Pods-GGLocationManager_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				760841F0415B4FB88955A6D326C2C2CD /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				46F644FE5B26A4AECC545A1C09F5F5A0 /* Products */,
+				A70ECBC1399573921CD69DA3FB8A71CC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AECBA61365544F357B06DE1C8710425 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2870B0C41E9F25B543F3D36A3D4812C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F8844ACE4C5C798C14AF581979BDE9 /* Pods-GGLocationManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B778BE84E8FEBD52B18F7DED930681 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F053A6043BDD7369BC6D897F3972100 /* GGLocationManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5752074856C007031B9A933B6D713E50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049E1B19A2CD0C39D7BC89C68E73D79B /* Pods-GGLocationManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		143A40495F668E1DE0A529EBB5063D8B /* GGLocationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D111814244B2758007F1563EF447EDF /* Build configuration list for PBXNativeTarget "GGLocationManager" */;
+			buildPhases = (
+				53B778BE84E8FEBD52B18F7DED930681 /* Headers */,
+				1DF692C9BBA547952D6993825305E094 /* Sources */,
+				377B03642F8DCF5548FF6E14E442E9E7 /* Frameworks */,
+				A55A108AC8281A19C68E9AABE1F771E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGLocationManager;
+			productName = GGLocationManager;
+			productReference = D269C033922203096647D99162EA2285 /* GGLocationManager */;
+			productType = "com.apple.product-type.framework";
+		};
+		522C3B05A610540970A47649713D9FA9 /* Pods-GGLocationManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4301A95CBF4CCF3F1330F7E1C37CDD /* Build configuration list for PBXNativeTarget "Pods-GGLocationManager_Tests" */;
+			buildPhases = (
+				5752074856C007031B9A933B6D713E50 /* Headers */,
+				9DFACE270536F3DECF3E986FEEF12C15 /* Sources */,
+				9CDF2C113FA42CC6FCE0E1AAC80C4FA8 /* Frameworks */,
+				F338F5F2A9B4DDB6D8BDBDD1AED0EF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F838C58B8032CAA7558FA044B276765 /* PBXTargetDependency */,
+			);
+			name = "Pods-GGLocationManager_Tests";
+			productName = Pods_GGLocationManager_Tests;
+			productReference = 76E34A4B4E70CB2E3249419706F4961E /* Pods-GGLocationManager_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEBC401E9C8D93C5E81A344669E9C02B /* Pods-GGLocationManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A49924E71C1868108436D450C65A31 /* Build configuration list for PBXNativeTarget "Pods-GGLocationManager_Example" */;
+			buildPhases = (
+				2870B0C41E9F25B543F3D36A3D4812C8 /* Headers */,
+				426A64CDEE5A6F542BDEBD3283EAC268 /* Sources */,
+				EE1FC0878B7EF2FAC2414B7F759279DD /* Frameworks */,
+				75E71544EBB50DAD521AC74631867FDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2183E2792882D72023DEF062BB03901A /* PBXTargetDependency */,
+			);
+			name = "Pods-GGLocationManager_Example";
+			productName = Pods_GGLocationManager_Example;
+			productReference = 56A715693469653C99D88B03BA0F0274 /* Pods-GGLocationManager_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 100;
+			productRefGroup = 46F644FE5B26A4AECC545A1C09F5F5A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				143A40495F668E1DE0A529EBB5063D8B /* GGLocationManager */,
+				AEBC401E9C8D93C5E81A344669E9C02B /* Pods-GGLocationManager_Example */,
+				522C3B05A610540970A47649713D9FA9 /* Pods-GGLocationManager_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75E71544EBB50DAD521AC74631867FDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55A108AC8281A19C68E9AABE1F771E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F338F5F2A9B4DDB6D8BDBDD1AED0EF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DF692C9BBA547952D6993825305E094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AF245AAF4A7458C331096772994BD0 /* GGLocationManager-dummy.m in Sources */,
+				0963964CFC3E3AE1912F9DA0134FE13B /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426A64CDEE5A6F542BDEBD3283EAC268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911404968958DEC6BA9B41BDBD5A6D76 /* Pods-GGLocationManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFACE270536F3DECF3E986FEEF12C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4B19F12C88F1F5A5DC76A4D0FC3BE0 /* Pods-GGLocationManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2183E2792882D72023DEF062BB03901A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GGLocationManager;
+			target = 143A40495F668E1DE0A529EBB5063D8B /* GGLocationManager */;
+			targetProxy = 2DEDCEC31A39BB5E0844CFDEC806539C /* PBXContainerItemProxy */;
+		};
+		3F838C58B8032CAA7558FA044B276765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GGLocationManager_Example";
+			target = AEBC401E9C8D93C5E81A344669E9C02B /* Pods-GGLocationManager_Example */;
+			targetProxy = 3E6E3A55F2778991E22A04D0321C59D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9C140A4B3FE7A0231E1104A748BF9F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF99D84387840301E31D678E113C381A /* Pods-GGLocationManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GGLocationManager_Example/Pods-GGLocationManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGLocationManager_Example/Pods-GGLocationManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B99C7C3130E3A0B4B011E72AA9CC3501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BC4A4D3C9E826FD7A8F819E873C4B2 /* Pods-GGLocationManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GGLocationManager_Tests/Pods-GGLocationManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGLocationManager_Tests/Pods-GGLocationManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD44632BCFCCD38A131301652CB2307C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752B52FF8DE651E3739425E5932EEA64 /* GGLocationManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GGLocationManager/GGLocationManager-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GGLocationManager/GGLocationManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGLocationManager/GGLocationManager.modulemap";
+				PRODUCT_MODULE_NAME = GGLocationManager;
+				PRODUCT_NAME = GGLocationManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E89E6601579E8127C3CB63F370ED1165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA930B213480EFA2E222E40176540E2 /* GGLocationManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GGLocationManager/GGLocationManager-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GGLocationManager/GGLocationManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGLocationManager/GGLocationManager.modulemap";
+				PRODUCT_MODULE_NAME = GGLocationManager;
+				PRODUCT_NAME = GGLocationManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECC08B1342CB7A5D865463F6E877C26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7DFFEF9FCC6B35A122487BFEB872DD /* Pods-GGLocationManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GGLocationManager_Example/Pods-GGLocationManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGLocationManager_Example/Pods-GGLocationManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD1FABF5E1C46582C1363743E05AA249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBE083A9BF58B1295C45E67C2CFD782 /* Pods-GGLocationManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GGLocationManager_Tests/Pods-GGLocationManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGLocationManager_Tests/Pods-GGLocationManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D111814244B2758007F1563EF447EDF /* Build configuration list for PBXNativeTarget "GGLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89E6601579E8127C3CB63F370ED1165 /* Debug */,
+				BD44632BCFCCD38A131301652CB2307C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A49924E71C1868108436D450C65A31 /* Build configuration list for PBXNativeTarget "Pods-GGLocationManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C140A4B3FE7A0231E1104A748BF9F97 /* Debug */,
+				ECC08B1342CB7A5D865463F6E877C26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4301A95CBF4CCF3F1330F7E1C37CDD /* Build configuration list for PBXNativeTarget "Pods-GGLocationManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1FABF5E1C46582C1363743E05AA249 /* Debug */,
+				B99C7C3130E3A0B4B011E72AA9CC3501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

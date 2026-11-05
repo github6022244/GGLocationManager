@@ -1,0 +1,16 @@
+PODS:
+  - GGLocationManager (0.1.0)
+
+DEPENDENCIES:
+  - GGLocationManager (from `../`)
+
+EXTERNAL SOURCES:
+  GGLocationManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GGLocationManager: 3f62ee1b9956ed7f1f0f575697181875c6a1f6ec
+
+PODFILE CHECKSUM: 1bee26fe70cff70579322eb26b84a1fc326b9bd8
+
+COCOAPODS: 1.17.0
