@@ -9,6 +9,7 @@
 #import "GGSystemLocationProvider.h"
 #import "GGLocationErrors.h"
 #import "GGPermission.h"
+#import "GGPermissionLocationHelper.h"
 
 @interface GGSystemLocationProvider ()
 @property (nonatomic, strong) CLLocationManager *locationManager;
@@ -39,9 +40,7 @@
 }
 
 - (BOOL)isAuthorized {
-    CLAuthorizationStatus status = self.locationManager.authorizationStatus;
-    return status == kCLAuthorizationStatusAuthorizedAlways
-        || status == kCLAuthorizationStatusAuthorizedWhenInUse;
+    return [GGPermissionLocationHelper isAuthorized];
 }
 
 - (void)requestSingleLocationWithNeedGeo:(BOOL)needGeo {

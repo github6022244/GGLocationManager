@@ -8,6 +8,7 @@
 
 #import "GGAmapLocationProvider.h"
 #import "GGLocationErrors.h"
+#import "GGPermissionLocationHelper.h"
 
 #if __has_include(<AMapLocationKit/AMapLocationKit.h>)
 #import <AMapLocationKit/AMapLocationKit.h>
@@ -40,9 +41,7 @@
 }
 
 - (BOOL)isAuthorized {
-    CLAuthorizationStatus status = [CLLocationManager authorizationStatus];
-    return status == kCLAuthorizationStatusAuthorizedAlways
-        || status == kCLAuthorizationStatusAuthorizedWhenInUse;
+    return [GGPermissionLocationHelper isAuthorized];
 }
 
 - (void)requestSingleLocationWithNeedGeo:(BOOL)needGeo {
