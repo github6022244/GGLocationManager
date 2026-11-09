@@ -8,18 +8,21 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GGLocationManager'
-  s.version          = '0.1.0'
-  s.summary          = 'A reusable pod library'
+  s.version          = '0.1.1'
+  s.summary      = '可插拔 iOS 定位管理组件，支持单次/持续定位，可选逆地理编码'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.description  = <<-DESC
+  轻量、基于提供者模式的 iOS 定位管理组件。
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  特性：
+  - 统一入口，支持单次定位与持续定位；所有公开接口与回调均在主线程执行。
+  - 通过 GGLocationProvider 协议实现可插拔定位源：可通过工厂方法按需注入系统 CoreLocation 或高德定位，未注入时自动降级使用系统定位。
+  - 可选逆地理编码，坐标回调后同步返回地址信息。
+  - 统一错误类型，覆盖权限拒绝、权限受限、定位服务关闭、超时、定位失败、逆地理编码失败、主动取消等场景。
+  - 可配置定位精度、距离过滤阈值、单次定位超时时间。
+  - 不直接依赖任何第三方定位 SDK；权限校验逻辑交由 GGPermission/Location 处理。
+                         DESC
+
 
   s.homepage         = 'https://github.com/github6022244/GGLocationManager.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
