@@ -1,16 +1,30 @@
 PODS:
-  - GGLocationManager (0.1.0)
+  - GGLocationManager (0.1.0):
+    - GGPermission/Location (~> 1.0.2)
+  - GGPermission/Core (1.0.2):
+    - GGWindowManager
+  - GGPermission/Location (1.0.2):
+    - GGPermission/Core
+    - GGWindowManager
+  - GGWindowManager (0.1.1)
 
 DEPENDENCIES:
   - GGLocationManager (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GGPermission
+    - GGWindowManager
 
 EXTERNAL SOURCES:
   GGLocationManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GGLocationManager: 3f62ee1b9956ed7f1f0f575697181875c6a1f6ec
+  GGLocationManager: 57c7b2b0dc033db17a8251d9d93132e6aac3a5a9
+  GGPermission: 0ca4aff7c2c4e711a533413c92473b8035157579
+  GGWindowManager: 8ac51a5fd7e30605ac7a2550eb3362bc9565f969
 
-PODFILE CHECKSUM: 1bee26fe70cff70579322eb26b84a1fc326b9bd8
+PODFILE CHECKSUM: 0b3e11846fdce0462399a5125389b10fc1e7da00
 
 COCOAPODS: 1.17.0

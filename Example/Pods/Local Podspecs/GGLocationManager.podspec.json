@@ -1,9 +1,9 @@
 {
   "name": "GGLocationManager",
   "version": "0.1.0",
-  "summary": "A short description of GGLocationManager.",
+  "summary": "A reusable pod library",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/github6022244/GGLocationManager",
+  "homepage": "https://github.com/github6022244/GGLocationManager.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,7 +16,12 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "GGLocationManager/Classes/**/*"
+  "source_files": "GGLocationManager/Classes/**/*",
+  "dependencies": {
+    "GGPermission/Location": [
+      "~> 1.0.2"
+    ]
+  }
 }

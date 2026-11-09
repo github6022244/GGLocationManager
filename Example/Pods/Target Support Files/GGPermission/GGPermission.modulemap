@@ -1,0 +1,6 @@
+framework module GGPermission {
+  umbrella header "GGPermission-umbrella.h"
+
+  export *
+  module * { export * }
+}

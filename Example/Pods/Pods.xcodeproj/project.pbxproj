@@ -7,27 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		009213EFF0366690B1AC98F7F3C5FA1F /* GGPermission-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9D34240461F44CDCA18BEAA917EA2A /* GGPermission-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01C06B5A47FC5117C3C24AE890096D87 /* Pods-GGLocationManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B3F01ACDAB14C3F14420A9FEA45333 /* Pods-GGLocationManager_Example-dummy.m */; };
+		04218B9002D678F73E80EE82A24C9CD1 /* GGPermissionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF48AE0179EED6DC1BC9613DB075598 /* GGPermissionTask.m */; };
 		049E1B19A2CD0C39D7BC89C68E73D79B /* Pods-GGLocationManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA46CCB864E13C6027E5EB5C5991F40 /* Pods-GGLocationManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0963964CFC3E3AE1912F9DA0134FE13B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDBAC857FAE172411DE1506766AF53F /* ReplaceMe.m */; };
-		11AF245AAF4A7458C331096772994BD0 /* GGLocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C9CB8D125A8373F298FD3013542906 /* GGLocationManager-dummy.m */; };
-		2AA45B9B99AAB99779E86457A14E728D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */; };
-		7F053A6043BDD7369BC6D897F3972100 /* GGLocationManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4FB21BE56B846D358FF40908007358 /* GGLocationManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		911404968958DEC6BA9B41BDBD5A6D76 /* Pods-GGLocationManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B3F01ACDAB14C3F14420A9FEA45333 /* Pods-GGLocationManager_Example-dummy.m */; };
-		AD3DB3239C630C13F818F56F9BA812D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */; };
+		08BE26D3A413671AFD0B96A5E88F6C32 /* GGLocationManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 078436EA106CFF1299B132719A6CD8E4 /* GGLocationManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BFCCB1B8309CFAC7E962B32A3C75272 /* GGWindowLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 317731042C0A125028709233EEF46F74 /* GGWindowLogHelper.m */; };
+		0CE1F6D24855EAC5C401F37292180D8C /* GGLocationErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA03884E677E2FDA1D41FC9122BCFE2 /* GGLocationErrors.m */; };
+		162514694FBCAA43A323D31D4051A166 /* GGPermissionLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E8616AEBC0BF89CD38263C0DBD46D857 /* GGPermissionLogger.m */; };
+		2098CB9BF4D7972B1A3898E8385B21BE /* Pods-GGLocationManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D350A06CA8375157BCC01855A319F1 /* Pods-GGLocationManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2313B2129A20FED14B94568E19961984 /* GGPermissionBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1A0D485A39471886E5BAC575E56E2 /* GGPermissionBaseHandler.m */; };
+		26F50B7F35BA539B55E08D2CE47FFC40 /* GGPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2A5AE8F756DC43FF6B24E187C99040 /* GGPermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28F3FDD0676971E488ACF00AE25E8E25 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CCEE32CD1F5BA3155D018F6AF182DD /* CoreLocation.framework */; };
+		2C5FD970F804E0E062CCE3451EB25220 /* GGWindowDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0B93C5D555B71F6CE489BBF405761E /* GGWindowDefine.m */; };
+		2CBC4168505DC84A070D5FBB0E0CA90C /* GGPermissionLocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 12479C3D3B5D49DAD49BA7A4DA515400 /* GGPermissionLocationHelper.m */; };
+		2CE5BDC827B68922583B97E778FC9525 /* GGLocationDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6042E6BCF41100F4B241F42A43448193 /* GGLocationDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D4C2BF8D44B5E117A4DC66FE40B122B /* GGPermissionBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B76C40A95A519828CE307BBF2A7B77D6 /* GGPermissionBaseRequest.m */; };
+		3177239902B74E01CEF8CDE7D5BF4465 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6B8E8CA3464AFFB59DC701AF4A01B0 /* Foundation.framework */; };
+		3260E800B54AC284BD883DF45492C165 /* GGLocationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E37512936DF9CD81BF5941CE1AA8CA /* GGLocationModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3923BE7867732F3478E9D42F7D55E1A8 /* GGPermissionLocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D004BB1D2E4A382FD2D218232D6799 /* GGPermissionLocationHandler.m */; };
+		419FD519F9E06097C9493C0888E6AD69 /* GGPermission-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA929EF154091A67C55F577DFF6B0899 /* GGPermission-dummy.m */; };
+		4487E77553773C27961207E8C14A1389 /* GGWindowManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E49DEF3FE4E55B9AA41F34CAC09F3759 /* GGWindowManager-dummy.m */; };
+		45BACAB1004089BE6F70F73945701675 /* GGLocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 141D0820FF43EBD8C6A1B2DC7046A838 /* GGLocationManager-dummy.m */; };
+		4EF7505F4ED7CC733CDB656FADE4A0CF /* GGPermissionLocationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 632D1D06D2D2A6D8A7957BB52505B4D1 /* GGPermissionLocationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F7D234C1601A99D305AE5BAE87DC2E3 /* UIViewController+GGPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 06ECBFCEE3AFF329D7B6E96DB6ADA9FF /* UIViewController+GGPermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FB3DC1225CB39FB677E9F4A151375D5 /* GGLocationErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 569FA826DBF2D201C290B76397966A34 /* GGLocationErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5262F4A7E2AC5419C605E190B14169AE /* GGPermissionLocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 437393C2277B4015B4D85316E813EFD9 /* GGPermissionLocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53384FD018D8060BF0DBA984A95B5229 /* GGPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DAF9AF1E1473E6D5261DB40396DE38 /* GGPermission.m */; };
+		547F686DAC35CFDFB80F23F0AD0140C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6B8E8CA3464AFFB59DC701AF4A01B0 /* Foundation.framework */; };
+		5D482C927676DE0F2214F544F009A526 /* GGAmapLocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE0C678343A9D4275DBC0EBD37BEE1B /* GGAmapLocationProvider.m */; };
+		655BB58AA705F532CF947F6729A1A761 /* UIViewController+GGPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB2696F4A1671987002B7D8995EE4D1 /* UIViewController+GGPermission.m */; };
+		693AF713A988930092D2D149C2B1CF79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6B8E8CA3464AFFB59DC701AF4A01B0 /* Foundation.framework */; };
+		6D0AD66E356BC031E9131FCD3069EDF2 /* GGPermissionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = FBED58A811E2C8BD5E8C37579935DE86 /* GGPermissionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D9D8E0DEBF5FA248529D0CA885316FF /* GGLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0091EC6BD2F743471D72B56B07A8AE0B /* GGLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E14CD1972BE05222249CCF79ECFF265 /* GGLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD88C5A65E326C58639B5DD721D9E4 /* GGLocationModel.m */; };
+		7922A54F53156DC033264526239B8AB7 /* GGSystemLocationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = ADAF803EE4DE5669AE266A3F6999D4B3 /* GGSystemLocationProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7FB71C1E5A9DD8702F9B065BD615C8 /* GGPermissionLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E88014C1098EF0CCB14B3C2DDE843E7B /* GGPermissionLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D812E12DE957E33DD4E6C28D33B72A9 /* GGPermissionBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 238DD22750D95AB417195F4B0DB07449 /* GGPermissionBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85DB5ED0AB82AA90D1A9734E64E94F2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9E9B7EC187C1B3A5F81E864C104663 /* UIKit.framework */; };
+		87637D65FD1A74A3E2D4CC2A14DBC98E /* GGLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDD24A1345BCFBCAA5CD230EE181640 /* GGLocationManager.m */; };
+		906477DCDB986ED973AF9F306F05AB7D /* GGWindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D30980A5808BA89307C69B830677F0 /* GGWindowManager.m */; };
+		91379E17981057764CE674E2272C45DC /* GGPermissionLoggerMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 176BB7C60A5E8D7249D79D1AD442EFEA /* GGPermissionLoggerMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91AF2D91E421A46B17A0D18B7851C709 /* GGLocationConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 230D3D12C14D2501E5FFBEDD53F30AA3 /* GGLocationConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		964F50B8BA6BE19C0D3B1AAFA81DC46C /* GGLocationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B370081AFCF1EFCC3D873DACF90375 /* GGLocationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3C2603E82D40D288B92405475490CA9 /* GGPermissionUIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE02C5FA2714FA7877AFEDF9A845752 /* GGPermissionUIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8D41A32A0C1C6B96DD773E8C2A42DFB /* GGPermissionTask.h in Headers */ = {isa = PBXBuildFile; fileRef = B33443D9E4B5562EEA74DE381708197A /* GGPermissionTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB4B19F12C88F1F5A5DC76A4D0FC3BE0 /* Pods-GGLocationManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0184E8D65B61B4F58E1688DD3BA4B5E /* Pods-GGLocationManager_Tests-dummy.m */; };
-		D6F8844ACE4C5C798C14AF581979BDE9 /* Pods-GGLocationManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D350A06CA8375157BCC01855A319F1 /* Pods-GGLocationManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD21A2353FCD6F79E0B283D16904A33F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */; };
+		BD06F5604F133C2CCA180BA40711DC3A /* GGLocationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC9366C94106CD24FC85D46FB9262C7 /* GGLocationProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF054F4749BCB96DCD33C2AF90E469E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6B8E8CA3464AFFB59DC701AF4A01B0 /* Foundation.framework */; };
+		C0E46D0D92CD53FA56487F298403E595 /* GGWindowDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E6FAF3DC7D55313F22D464D5BAF78A /* GGWindowDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4FE1A4FB07829A282BA61FF13F6A971 /* GGLocationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E95D97A76825B2BF33A65EBF6C61405A /* GGLocationRequest.m */; };
+		C9B42F98D35F6160E70BCB40B13F0543 /* GGPermissionLocationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F5AEA09E96E58827D3D34370032EA7 /* GGPermissionLocationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6CFA90B4DB470D6E68C424B580D25C9 /* GGWindowManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CABE75B29A6A5A4660CF72A27C01363 /* GGWindowManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD082EB776C763AACE9947D0D31A003F /* GGLocationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7905AD5201066366F325B17EA1D55AFE /* GGLocationConfig.m */; };
+		DD21A2353FCD6F79E0B283D16904A33F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6B8E8CA3464AFFB59DC701AF4A01B0 /* Foundation.framework */; };
+		DE27361A492EC037AAE712C586DF82C9 /* UIWindow+GG.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF18C40BE9384DB330603BC3B77A722 /* UIWindow+GG.m */; };
+		E3111EBE2D650AE6430440EB819A0A9D /* GGSystemLocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C142096205E4A978130D5CC4F28619D /* GGSystemLocationProvider.m */; };
+		E5B11935924FD14B9BE9FA511AA3865D /* GGPermissionDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = C27DA1C0AF8CDB87AF388366B2218BAE /* GGPermissionDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA40BCFE5651DE1343959E2FD2BACC92 /* GGPermissionLocationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE599590963484A76040986D2FD08FE /* GGPermissionLocationRequest.m */; };
+		EC497BE3221242396FE8E4DFD42996DB /* GGWindowLogHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5C7492A77A70AB87B05896CF67999 /* GGWindowLogHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2793C8CD983E634E63875FD174F3E4 /* GGPermissionUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 828E88BA4B728D1ACC7CD35B07BB12B2 /* GGPermissionUIHelper.m */; };
+		F0170AC4108E713375072A09F205E4BB /* GGPermissionLoggerMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE6C43C7E3328C5E9EDE3DC00D66CE /* GGPermissionLoggerMacros.m */; };
+		F1EFA6505F9EBD12D2D6947FA412F3DC /* GGAmapLocationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = F3C5E41B0E4BE82265B2799E376BB5A7 /* GGAmapLocationProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2538F90BBF3A0C8EB9378EA483865E0 /* GGPermissionBaseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 751DAC4628C851E7F6E0DB2A699EBDF9 /* GGPermissionBaseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F26FD6AA3B2B32B15388067602FEA4E9 /* GGWindowManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7578B6E9AF0373E628F4162DC3ED4DB /* GGWindowManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF6DF36A23CB0B9BDF66AD0044BB74C /* UIWindow+GG.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F662C311689786FC902996AAF73926 /* UIWindow+GG.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2DEDCEC31A39BB5E0844CFDEC806539C /* PBXContainerItemProxy */ = {
+		009346BAF6031BD6BC10E0D791118175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7E5D0A227A1231F89942D1156855A7;
+			remoteInfo = GGWindowManager;
+		};
+		6959CD0066664F3B90FC8E9E73CBFEFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 143A40495F668E1DE0A529EBB5063D8B;
 			remoteInfo = GGLocationManager;
 		};
-		3E6E3A55F2778991E22A04D0321C59D3 /* PBXContainerItemProxy */ = {
+		7ECE094EE9D2BA5C477E7BE2C49FFAA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E045EB1129C1A338D3DB826871A865EA;
+			remoteInfo = GGPermission;
+		};
+		BA27D05726D0BB15CF82C6C75ACD5143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7E5D0A227A1231F89942D1156855A7;
+			remoteInfo = GGWindowManager;
+		};
+		E1E8406F9D93C75475AC98D77688F9DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E045EB1129C1A338D3DB826871A865EA;
+			remoteInfo = GGPermission;
+		};
+		F9B543661D7F6D02CCBB52D8CB83B5F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,47 +120,130 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0091EC6BD2F743471D72B56B07A8AE0B /* GGLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLocationManager.h; path = GGLocationManager/Classes/GGLocationManager.h; sourceTree = "<group>"; };
+		055EF547C3D7F3D52A7BBA39E2BEF383 /* GGPermission.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGPermission.modulemap; sourceTree = "<group>"; };
+		06ECBFCEE3AFF329D7B6E96DB6ADA9FF /* UIViewController+GGPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+GGPermission.h"; path = "GGPermission/Classes/Core/UIViewController+GGPermission.h"; sourceTree = "<group>"; };
+		078436EA106CFF1299B132719A6CD8E4 /* GGLocationManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGLocationManager-umbrella.h"; sourceTree = "<group>"; };
+		0CABE75B29A6A5A4660CF72A27C01363 /* GGWindowManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGWindowManager.h; path = GGWindowManager/Classes/GGWindowManager.h; sourceTree = "<group>"; };
+		0CAE6C43C7E3328C5E9EDE3DC00D66CE /* GGPermissionLoggerMacros.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGPermissionLoggerMacros.m; path = GGPermission/Classes/Core/GGPermissionLoggerMacros.m; sourceTree = "<group>"; };
+		12479C3D3B5D49DAD49BA7A4DA515400 /* GGPermissionLocationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGPermissionLocationHelper.m; path = GGPermission/Classes/Location/GGPermissionLocationHelper.m; sourceTree = "<group>"; };
 		12F258C514523CE5D912898E88E69F01 /* Pods-GGLocationManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGLocationManager_Example-Info.plist"; sourceTree = "<group>"; };
+		141D0820FF43EBD8C6A1B2DC7046A838 /* GGLocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGLocationManager-dummy.m"; sourceTree = "<group>"; };
+		14E37512936DF9CD81BF5941CE1AA8CA /* GGLocationModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLocationModel.h; path = GGLocationManager/Classes/GGLocationModel.h; sourceTree = "<group>"; };
+		176BB7C60A5E8D7249D79D1AD442EFEA /* GGPermissionLoggerMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGPermissionLoggerMacros.h; path = GGPermission/Classes/Core/GGPermissionLoggerMacros.h; sourceTree = "<group>"; };
 		19BC4A4D3C9E826FD7A8F819E873C4B2 /* Pods-GGLocationManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGLocationManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1AF48AE0179EED6DC1BC9613DB075598 /* GGPermissionTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGPermissionTask.m; path = GGPermission/Classes/Core/GGPermissionTask.m; sourceTree = "<group>"; };
+		1C6B8E8CA3464AFFB59DC701AF4A01B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1DC272BB44D5BB7205160160F0DBF5B3 /* GGLocationManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGLocationManager-Info.plist"; sourceTree = "<group>"; };
+		1F5154A6CA7A83EF6679BE707A4E7DA5 /* GGPermission-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGPermission-prefix.pch"; sourceTree = "<group>"; };
+		20F662C311689786FC902996AAF73926 /* UIWindow+GG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+GG.h"; path = "GGWindowManager/Classes/UIWindow+GG.h"; sourceTree = "<group>"; };
+		21D004BB1D2E4A382FD2D218232D6799 /* GGPermissionLocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGPermissionLocationHandler.m; path = GGPermission/Classes/Location/GGPermissionLocationHandler.m; sourceTree = "<group>"; };
+		230D3D12C14D2501E5FFBEDD53F30AA3 /* GGLocationConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLocationConfig.h; path = GGLocationManager/Classes/GGLocationConfig.h; sourceTree = "<group>"; };
+		238DD22750D95AB417195F4B0DB07449 /* GGPermissionBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGPermissionBaseRequest.h; path = GGPermission/Classes/Core/GGPermissionBaseRequest.h; sourceTree = "<group>"; };
+		23AD88C5A65E326C58639B5DD721D9E4 /* GGLocationModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGLocationModel.m; path = GGLocationManager/Classes/GGLocationModel.m; sourceTree = "<group>"; };
+		245BFDF0B5AE44C587BAEB5AC49CFBB8 /* GGPermission */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGPermission; path = GGPermission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B3F01ACDAB14C3F14420A9FEA45333 /* Pods-GGLocationManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGLocationManager_Example-dummy.m"; sourceTree = "<group>"; };
-		2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2C2A5AE8F756DC43FF6B24E187C99040 /* GGPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGPermission.h; path = GGPermission/Classes/Core/GGPermission.h; sourceTree = "<group>"; };
+		2DE02C5FA2714FA7877AFEDF9A845752 /* GGPermissionUIHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGPermissionUIHelper.h; path = GGPermission/Classes/Core/GGPermissionUIHelper.h; sourceTree = "<group>"; };
+		317731042C0A125028709233EEF46F74 /* GGWindowLogHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGWindowLogHelper.m; path = GGWindowManager/Classes/GGWindowLogHelper.m; sourceTree = "<group>"; };
+		3554641B8C6A01D1C8C47FF4D6C77F65 /* GGWindowManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGWindowManager.release.xcconfig; sourceTree = "<group>"; };
+		390235C46E262B8DA6D39F4D4B2CB168 /* GGLocationManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGLocationManager.release.xcconfig; sourceTree = "<group>"; };
 		3DBE083A9BF58B1295C45E67C2CFD782 /* Pods-GGLocationManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGLocationManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		42F6A987A8A21EC81A22DD5B6B1F6858 /* Pods-GGLocationManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGLocationManager_Tests-Info.plist"; sourceTree = "<group>"; };
-		4428EB95E04334A04F897A91B57207AF /* GGLocationManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGLocationManager.modulemap; sourceTree = "<group>"; };
+		437393C2277B4015B4D85316E813EFD9 /* GGPermissionLocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGPermissionLocationHandler.h; path = GGPermission/Classes/Location/GGPermissionLocationHandler.h; sourceTree = "<group>"; };
 		4D7DFFEF9FCC6B35A122487BFEB872DD /* Pods-GGLocationManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGLocationManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4EB2696F4A1671987002B7D8995EE4D1 /* UIViewController+GGPermission.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+GGPermission.m"; path = "GGPermission/Classes/Core/UIViewController+GGPermission.m"; sourceTree = "<group>"; };
+		569FA826DBF2D201C290B76397966A34 /* GGLocationErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLocationErrors.h; path = GGLocationManager/Classes/GGLocationErrors.h; sourceTree = "<group>"; };
 		56A715693469653C99D88B03BA0F0274 /* Pods-GGLocationManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGLocationManager_Example"; path = Pods_GGLocationManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA46CCB864E13C6027E5EB5C5991F40 /* Pods-GGLocationManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGLocationManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6CD2AA7E3C8E0C771EED2ACADFA9E500 /* GGLocationManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGLocationManager-Info.plist"; sourceTree = "<group>"; };
-		70C9CB8D125A8373F298FD3013542906 /* GGLocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGLocationManager-dummy.m"; sourceTree = "<group>"; };
-		752B52FF8DE651E3739425E5932EEA64 /* GGLocationManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGLocationManager.release.xcconfig; sourceTree = "<group>"; };
+		6042E6BCF41100F4B241F42A43448193 /* GGLocationDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLocationDefines.h; path = GGLocationManager/Classes/GGLocationDefines.h; sourceTree = "<group>"; };
+		632D1D06D2D2A6D8A7957BB52505B4D1 /* GGPermissionLocationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGPermissionLocationHelper.h; path = GGPermission/Classes/Location/GGPermissionLocationHelper.h; sourceTree = "<group>"; };
+		66098F2261AF8F0F44D3B6B2F49169C7 /* GGWindowManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGWindowManager-prefix.pch"; sourceTree = "<group>"; };
+		6B8B61838A3A01CBCFC2230A7D959CD7 /* GGPermission-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGPermission-Info.plist"; sourceTree = "<group>"; };
+		6FD1A0D485A39471886E5BAC575E56E2 /* GGPermissionBaseHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGPermissionBaseHandler.m; path = GGPermission/Classes/Core/GGPermissionBaseHandler.m; sourceTree = "<group>"; };
+		751DAC4628C851E7F6E0DB2A699EBDF9 /* GGPermissionBaseHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGPermissionBaseHandler.h; path = GGPermission/Classes/Core/GGPermissionBaseHandler.h; sourceTree = "<group>"; };
 		76E34A4B4E70CB2E3249419706F4961E /* Pods-GGLocationManager_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGLocationManager_Tests"; path = Pods_GGLocationManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EA930B213480EFA2E222E40176540E2 /* GGLocationManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGLocationManager.debug.xcconfig; sourceTree = "<group>"; };
+		7905AD5201066366F325B17EA1D55AFE /* GGLocationConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGLocationConfig.m; path = GGLocationManager/Classes/GGLocationConfig.m; sourceTree = "<group>"; };
+		7B9D34240461F44CDCA18BEAA917EA2A /* GGPermission-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGPermission-umbrella.h"; sourceTree = "<group>"; };
 		816C6A65CB2803BD88335CB3BF79F67F /* Pods-GGLocationManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGLocationManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		828E88BA4B728D1ACC7CD35B07BB12B2 /* GGPermissionUIHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGPermissionUIHelper.m; path = GGPermission/Classes/Core/GGPermissionUIHelper.m; sourceTree = "<group>"; };
+		82B370081AFCF1EFCC3D873DACF90375 /* GGLocationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLocationRequest.h; path = GGLocationManager/Classes/GGLocationRequest.h; sourceTree = "<group>"; };
 		84740D85250EF3C8F816C8A6041E12C5 /* Pods-GGLocationManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGLocationManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		84D350A06CA8375157BCC01855A319F1 /* Pods-GGLocationManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGLocationManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		88A60E15FF765705EE637DC350799D89 /* Pods-GGLocationManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGLocationManager_Example.modulemap"; sourceTree = "<group>"; };
-		96FADC53C0F722797B33819AE52202A1 /* GGLocationManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGLocationManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8FB9DC777E407016463BEAAA98C5EEE7 /* GGLocationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGLocationManager-prefix.pch"; sourceTree = "<group>"; };
+		8FBA2D5C8B42D8F689304E740AAA353E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		90FB7EC55EC2D9C18EDBAAD4F41B5CC8 /* GGPermission.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGPermission.debug.xcconfig; sourceTree = "<group>"; };
+		95B20B430D9F40767EBEC061687CDFC8 /* GGWindowManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGWindowManager; path = GGWindowManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D30980A5808BA89307C69B830677F0 /* GGWindowManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGWindowManager.m; path = GGWindowManager/Classes/GGWindowManager.m; sourceTree = "<group>"; };
+		9C142096205E4A978130D5CC4F28619D /* GGSystemLocationProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGSystemLocationProvider.m; path = GGLocationManager/Classes/GGSystemLocationProvider.m; sourceTree = "<group>"; };
+		9CF18C40BE9384DB330603BC3B77A722 /* UIWindow+GG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+GG.m"; path = "GGWindowManager/Classes/UIWindow+GG.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAE599590963484A76040986D2FD08FE /* GGPermissionLocationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGPermissionLocationRequest.m; path = GGPermission/Classes/Location/GGPermissionLocationRequest.m; sourceTree = "<group>"; };
+		AD42DC5096038238C4C2D840ED253970 /* GGLocationManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGLocationManager.debug.xcconfig; sourceTree = "<group>"; };
+		ADAF803EE4DE5669AE266A3F6999D4B3 /* GGSystemLocationProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGSystemLocationProvider.h; path = GGLocationManager/Classes/GGSystemLocationProvider.h; sourceTree = "<group>"; };
+		ADE0C678343A9D4275DBC0EBD37BEE1B /* GGAmapLocationProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGAmapLocationProvider.m; path = GGLocationManager/Classes/GGAmapLocationProvider.m; sourceTree = "<group>"; };
 		AEA74979918EC2288CA6A32D3DD35587 /* Pods-GGLocationManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGLocationManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AF4FB21BE56B846D358FF40908007358 /* GGLocationManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGLocationManager-umbrella.h"; sourceTree = "<group>"; };
+		B2AFBB1D30F1E26D21B737EAD5F60478 /* GGLocationManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGLocationManager.modulemap; sourceTree = "<group>"; };
+		B33443D9E4B5562EEA74DE381708197A /* GGPermissionTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGPermissionTask.h; path = GGPermission/Classes/Core/GGPermissionTask.h; sourceTree = "<group>"; };
+		B76C40A95A519828CE307BBF2A7B77D6 /* GGPermissionBaseRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGPermissionBaseRequest.m; path = GGPermission/Classes/Core/GGPermissionBaseRequest.m; sourceTree = "<group>"; };
+		B9DAF9AF1E1473E6D5261DB40396DE38 /* GGPermission.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGPermission.m; path = GGPermission/Classes/Core/GGPermission.m; sourceTree = "<group>"; };
 		BAFBC5599879B6DFA0251ED3EC9F1788 /* Pods-GGLocationManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGLocationManager_Tests.modulemap"; sourceTree = "<group>"; };
-		BEB2397C170A68F78BADD974433D0DAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BBC04CAAB802E53A420FF1E3271C436D /* GGWindowManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGWindowManager.modulemap; sourceTree = "<group>"; };
 		BEBF721F09752246F2C4D284F1DC93EC /* Pods-GGLocationManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGLocationManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF290E5AE3F2A01275317808CAFD6F72 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C27DA1C0AF8CDB87AF388366B2218BAE /* GGPermissionDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGPermissionDefine.h; path = GGPermission/Classes/Core/GGPermissionDefine.h; sourceTree = "<group>"; };
+		CA9E9B7EC187C1B3A5F81E864C104663 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CAA03884E677E2FDA1D41FC9122BCFE2 /* GGLocationErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGLocationErrors.m; path = GGLocationManager/Classes/GGLocationErrors.m; sourceTree = "<group>"; };
 		CF99D84387840301E31D678E113C381A /* Pods-GGLocationManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGLocationManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D269C033922203096647D99162EA2285 /* GGLocationManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGLocationManager; path = GGLocationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFDBAC857FAE172411DE1506766AF53F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GGLocationManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		E38C1E5F48F80503D3D73C4F78E9F05E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		EC2468670D73B505C200897DD256D052 /* GGLocationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGLocationManager-prefix.pch"; sourceTree = "<group>"; };
+		D4F5AEA09E96E58827D3D34370032EA7 /* GGPermissionLocationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGPermissionLocationRequest.h; path = GGPermission/Classes/Location/GGPermissionLocationRequest.h; sourceTree = "<group>"; };
+		D659B78F7C4D0C35FC169F905F302420 /* GGPermission.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGPermission.release.xcconfig; sourceTree = "<group>"; };
+		D8E6FAF3DC7D55313F22D464D5BAF78A /* GGWindowDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGWindowDefine.h; path = GGWindowManager/Classes/GGWindowDefine.h; sourceTree = "<group>"; };
+		DB0B93C5D555B71F6CE489BBF405761E /* GGWindowDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGWindowDefine.m; path = GGWindowManager/Classes/GGWindowDefine.m; sourceTree = "<group>"; };
+		DBBA843E5753DED7E3C100DD2C7162EF /* GGWindowManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGWindowManager-Info.plist"; sourceTree = "<group>"; };
+		E32B02B081AABE691EA43BD30DF4089B /* GGLocationManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGLocationManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E49DEF3FE4E55B9AA41F34CAC09F3759 /* GGWindowManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGWindowManager-dummy.m"; sourceTree = "<group>"; };
+		E8616AEBC0BF89CD38263C0DBD46D857 /* GGPermissionLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGPermissionLogger.m; path = GGPermission/Classes/Core/GGPermissionLogger.m; sourceTree = "<group>"; };
+		E88014C1098EF0CCB14B3C2DDE843E7B /* GGPermissionLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGPermissionLogger.h; path = GGPermission/Classes/Core/GGPermissionLogger.h; sourceTree = "<group>"; };
+		E95D97A76825B2BF33A65EBF6C61405A /* GGLocationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGLocationRequest.m; path = GGLocationManager/Classes/GGLocationRequest.m; sourceTree = "<group>"; };
+		EA929EF154091A67C55F577DFF6B0899 /* GGPermission-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGPermission-dummy.m"; sourceTree = "<group>"; };
+		EDDD24A1345BCFBCAA5CD230EE181640 /* GGLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGLocationManager.m; path = GGLocationManager/Classes/GGLocationManager.m; sourceTree = "<group>"; };
+		EF90D2C6C17D14F3B3CD2988DBC0C120 /* GGWindowManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGWindowManager.debug.xcconfig; sourceTree = "<group>"; };
 		F0184E8D65B61B4F58E1688DD3BA4B5E /* Pods-GGLocationManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGLocationManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		F3C5E41B0E4BE82265B2799E376BB5A7 /* GGAmapLocationProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGAmapLocationProvider.h; path = GGLocationManager/Classes/GGAmapLocationProvider.h; sourceTree = "<group>"; };
+		F7578B6E9AF0373E628F4162DC3ED4DB /* GGWindowManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGWindowManager-umbrella.h"; sourceTree = "<group>"; };
+		F8CCEE32CD1F5BA3155D018F6AF182DD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		FAF5C7492A77A70AB87B05896CF67999 /* GGWindowLogHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGWindowLogHelper.h; path = GGWindowManager/Classes/GGWindowLogHelper.h; sourceTree = "<group>"; };
 		FB20A122CBFDA47AB93986458AF8C002 /* Pods-GGLocationManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGLocationManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBED58A811E2C8BD5E8C37579935DE86 /* GGPermissionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGPermissionProtocol.h; path = GGPermission/Classes/Core/GGPermissionProtocol.h; sourceTree = "<group>"; };
+		FFC9366C94106CD24FC85D46FB9262C7 /* GGLocationProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLocationProvider.h; path = GGLocationManager/Classes/GGLocationProvider.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		377B03642F8DCF5548FF6E14E442E9E7 /* Frameworks */ = {
+		0D4742C5F275F2B3F8B6334512335CEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AA45B9B99AAB99779E86457A14E728D /* Foundation.framework in Frameworks */,
+				28F3FDD0676971E488ACF00AE25E8E25 /* CoreLocation.framework in Frameworks */,
+				BF054F4749BCB96DCD33C2AF90E469E8 /* Foundation.framework in Frameworks */,
+				85DB5ED0AB82AA90D1A9734E64E94F2A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAC17ADB204CEC4E2161FCF6B9D29C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693AF713A988930092D2D149C2B1CF79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7080C65F9679A94DDB918914B9243E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547F686DAC35CFDFB80F23F0AD0140C9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,17 +255,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE1FC0878B7EF2FAC2414B7F759279DD /* Frameworks */ = {
+		B2B89CE407FB6B7F9490D45F53A31D5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD3DB3239C630C13F818F56F9BA812D3 /* Foundation.framework in Frameworks */,
+				3177239902B74E01CEF8CDE7D5BF4465 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55FFF567EE13C78319DB9C31D5AE6203 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18AE0A7C17934650474BA81E2F6F8B77 /* Pods-GGLocationManager_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,66 +291,161 @@
 			path = "Target Support Files/Pods-GGLocationManager_Example";
 			sourceTree = "<group>";
 		};
-		2F1CDDD753761EB1590D3B24CF92D34D /* GGLocationManager */ = {
+		39806A57A51514890136E55EF882D278 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DFDBAC857FAE172411DE1506766AF53F /* ReplaceMe.m */,
-				738B1B6A6A439DFB0E1212E3370E885A /* Pod */,
-				4F2AF23FE8BAAE51726DACDD237708A2 /* Support Files */,
+				B2AFBB1D30F1E26D21B737EAD5F60478 /* GGLocationManager.modulemap */,
+				141D0820FF43EBD8C6A1B2DC7046A838 /* GGLocationManager-dummy.m */,
+				1DC272BB44D5BB7205160160F0DBF5B3 /* GGLocationManager-Info.plist */,
+				8FB9DC777E407016463BEAAA98C5EEE7 /* GGLocationManager-prefix.pch */,
+				078436EA106CFF1299B132719A6CD8E4 /* GGLocationManager-umbrella.h */,
+				AD42DC5096038238C4C2D840ED253970 /* GGLocationManager.debug.xcconfig */,
+				390235C46E262B8DA6D39F4D4B2CB168 /* GGLocationManager.release.xcconfig */,
 			);
-			name = GGLocationManager;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GGLocationManager";
 			sourceTree = "<group>";
 		};
-		46F644FE5B26A4AECC545A1C09F5F5A0 /* Products */ = {
+		52E79722358D08FCAD34ABFC1A1BBECA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8BB306E88CD876850004FE3FCC90876 /* GGPermission */,
+				656DFE801F415889657D718CDC0596D2 /* GGWindowManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55FFF567EE13C78319DB9C31D5AE6203 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8CCEE32CD1F5BA3155D018F6AF182DD /* CoreLocation.framework */,
+				1C6B8E8CA3464AFFB59DC701AF4A01B0 /* Foundation.framework */,
+				CA9E9B7EC187C1B3A5F81E864C104663 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60291C3AF342C4F20BF166701B9C5207 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				437393C2277B4015B4D85316E813EFD9 /* GGPermissionLocationHandler.h */,
+				21D004BB1D2E4A382FD2D218232D6799 /* GGPermissionLocationHandler.m */,
+				632D1D06D2D2A6D8A7957BB52505B4D1 /* GGPermissionLocationHelper.h */,
+				12479C3D3B5D49DAD49BA7A4DA515400 /* GGPermissionLocationHelper.m */,
+				D4F5AEA09E96E58827D3D34370032EA7 /* GGPermissionLocationRequest.h */,
+				AAE599590963484A76040986D2FD08FE /* GGPermissionLocationRequest.m */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		6513DA9FAC6584850CF4806D7CE8D9FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				D269C033922203096647D99162EA2285 /* GGLocationManager */,
+				245BFDF0B5AE44C587BAEB5AC49CFBB8 /* GGPermission */,
+				95B20B430D9F40767EBEC061687CDFC8 /* GGWindowManager */,
 				56A715693469653C99D88B03BA0F0274 /* Pods-GGLocationManager_Example */,
 				76E34A4B4E70CB2E3249419706F4961E /* Pods-GGLocationManager_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F2AF23FE8BAAE51726DACDD237708A2 /* Support Files */ = {
+		656DFE801F415889657D718CDC0596D2 /* GGWindowManager */ = {
 			isa = PBXGroup;
 			children = (
-				4428EB95E04334A04F897A91B57207AF /* GGLocationManager.modulemap */,
-				70C9CB8D125A8373F298FD3013542906 /* GGLocationManager-dummy.m */,
-				6CD2AA7E3C8E0C771EED2ACADFA9E500 /* GGLocationManager-Info.plist */,
-				EC2468670D73B505C200897DD256D052 /* GGLocationManager-prefix.pch */,
-				AF4FB21BE56B846D358FF40908007358 /* GGLocationManager-umbrella.h */,
-				7EA930B213480EFA2E222E40176540E2 /* GGLocationManager.debug.xcconfig */,
-				752B52FF8DE651E3739425E5932EEA64 /* GGLocationManager.release.xcconfig */,
+				D8E6FAF3DC7D55313F22D464D5BAF78A /* GGWindowDefine.h */,
+				DB0B93C5D555B71F6CE489BBF405761E /* GGWindowDefine.m */,
+				FAF5C7492A77A70AB87B05896CF67999 /* GGWindowLogHelper.h */,
+				317731042C0A125028709233EEF46F74 /* GGWindowLogHelper.m */,
+				0CABE75B29A6A5A4660CF72A27C01363 /* GGWindowManager.h */,
+				97D30980A5808BA89307C69B830677F0 /* GGWindowManager.m */,
+				20F662C311689786FC902996AAF73926 /* UIWindow+GG.h */,
+				9CF18C40BE9384DB330603BC3B77A722 /* UIWindow+GG.m */,
+				78A89D551747E6964C41BD44CE2A516A /* Support Files */,
+			);
+			name = GGWindowManager;
+			path = GGWindowManager;
+			sourceTree = "<group>";
+		};
+		6BAC539E2097AB2708364AF37A34505F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A5AE8F756DC43FF6B24E187C99040 /* GGPermission.h */,
+				B9DAF9AF1E1473E6D5261DB40396DE38 /* GGPermission.m */,
+				751DAC4628C851E7F6E0DB2A699EBDF9 /* GGPermissionBaseHandler.h */,
+				6FD1A0D485A39471886E5BAC575E56E2 /* GGPermissionBaseHandler.m */,
+				238DD22750D95AB417195F4B0DB07449 /* GGPermissionBaseRequest.h */,
+				B76C40A95A519828CE307BBF2A7B77D6 /* GGPermissionBaseRequest.m */,
+				C27DA1C0AF8CDB87AF388366B2218BAE /* GGPermissionDefine.h */,
+				E88014C1098EF0CCB14B3C2DDE843E7B /* GGPermissionLogger.h */,
+				E8616AEBC0BF89CD38263C0DBD46D857 /* GGPermissionLogger.m */,
+				176BB7C60A5E8D7249D79D1AD442EFEA /* GGPermissionLoggerMacros.h */,
+				0CAE6C43C7E3328C5E9EDE3DC00D66CE /* GGPermissionLoggerMacros.m */,
+				FBED58A811E2C8BD5E8C37579935DE86 /* GGPermissionProtocol.h */,
+				B33443D9E4B5562EEA74DE381708197A /* GGPermissionTask.h */,
+				1AF48AE0179EED6DC1BC9613DB075598 /* GGPermissionTask.m */,
+				2DE02C5FA2714FA7877AFEDF9A845752 /* GGPermissionUIHelper.h */,
+				828E88BA4B728D1ACC7CD35B07BB12B2 /* GGPermissionUIHelper.m */,
+				06ECBFCEE3AFF329D7B6E96DB6ADA9FF /* UIViewController+GGPermission.h */,
+				4EB2696F4A1671987002B7D8995EE4D1 /* UIViewController+GGPermission.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		78A89D551747E6964C41BD44CE2A516A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBC04CAAB802E53A420FF1E3271C436D /* GGWindowManager.modulemap */,
+				E49DEF3FE4E55B9AA41F34CAC09F3759 /* GGWindowManager-dummy.m */,
+				DBBA843E5753DED7E3C100DD2C7162EF /* GGWindowManager-Info.plist */,
+				66098F2261AF8F0F44D3B6B2F49169C7 /* GGWindowManager-prefix.pch */,
+				F7578B6E9AF0373E628F4162DC3ED4DB /* GGWindowManager-umbrella.h */,
+				EF90D2C6C17D14F3B3CD2988DBC0C120 /* GGWindowManager.debug.xcconfig */,
+				3554641B8C6A01D1C8C47FF4D6C77F65 /* GGWindowManager.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GGLocationManager";
+			path = "../Target Support Files/GGWindowManager";
 			sourceTree = "<group>";
 		};
-		738B1B6A6A439DFB0E1212E3370E885A /* Pod */ = {
+		7C1B3E54C216D7C7F2DB7A7FCF3841A7 /* GGLocationManager */ = {
 			isa = PBXGroup;
 			children = (
-				96FADC53C0F722797B33819AE52202A1 /* GGLocationManager.podspec */,
-				E38C1E5F48F80503D3D73C4F78E9F05E /* LICENSE */,
-				BEB2397C170A68F78BADD974433D0DAE /* README.md */,
+				F3C5E41B0E4BE82265B2799E376BB5A7 /* GGAmapLocationProvider.h */,
+				ADE0C678343A9D4275DBC0EBD37BEE1B /* GGAmapLocationProvider.m */,
+				230D3D12C14D2501E5FFBEDD53F30AA3 /* GGLocationConfig.h */,
+				7905AD5201066366F325B17EA1D55AFE /* GGLocationConfig.m */,
+				6042E6BCF41100F4B241F42A43448193 /* GGLocationDefines.h */,
+				569FA826DBF2D201C290B76397966A34 /* GGLocationErrors.h */,
+				CAA03884E677E2FDA1D41FC9122BCFE2 /* GGLocationErrors.m */,
+				0091EC6BD2F743471D72B56B07A8AE0B /* GGLocationManager.h */,
+				EDDD24A1345BCFBCAA5CD230EE181640 /* GGLocationManager.m */,
+				14E37512936DF9CD81BF5941CE1AA8CA /* GGLocationModel.h */,
+				23AD88C5A65E326C58639B5DD721D9E4 /* GGLocationModel.m */,
+				FFC9366C94106CD24FC85D46FB9262C7 /* GGLocationProvider.h */,
+				82B370081AFCF1EFCC3D873DACF90375 /* GGLocationRequest.h */,
+				E95D97A76825B2BF33A65EBF6C61405A /* GGLocationRequest.m */,
+				ADAF803EE4DE5669AE266A3F6999D4B3 /* GGSystemLocationProvider.h */,
+				9C142096205E4A978130D5CC4F28619D /* GGSystemLocationProvider.m */,
+				E1AE3F8A060ABD632AC9531CAEEE047D /* Pod */,
+				39806A57A51514890136E55EF882D278 /* Support Files */,
 			);
-			name = Pod;
+			name = GGLocationManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		760841F0415B4FB88955A6D326C2C2CD /* Development Pods */ = {
+		A1E182399262E3548C36BFF09524232A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2F1CDDD753761EB1590D3B24CF92D34D /* GGLocationManager */,
+				055EF547C3D7F3D52A7BBA39E2BEF383 /* GGPermission.modulemap */,
+				EA929EF154091A67C55F577DFF6B0899 /* GGPermission-dummy.m */,
+				6B8B61838A3A01CBCFC2230A7D959CD7 /* GGPermission-Info.plist */,
+				1F5154A6CA7A83EF6679BE707A4E7DA5 /* GGPermission-prefix.pch */,
+				7B9D34240461F44CDCA18BEAA917EA2A /* GGPermission-umbrella.h */,
+				90FB7EC55EC2D9C18EDBAAD4F41B5CC8 /* GGPermission.debug.xcconfig */,
+				D659B78F7C4D0C35FC169F905F302420 /* GGPermission.release.xcconfig */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7AECBA61365544F357B06DE1C8710425 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				2CB74A84DF62E0DBFFA4715EF79E08A1 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/GGPermission";
 			sourceTree = "<group>";
 		};
 		A70ECBC1399573921CD69DA3FB8A71CC /* Targets Support Files */ = {
@@ -204,41 +473,72 @@
 			path = "Target Support Files/Pods-GGLocationManager_Tests";
 			sourceTree = "<group>";
 		};
+		C80436AD5C2B2460CED957ACD451FADF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C1B3E54C216D7C7F2DB7A7FCF3841A7 /* GGLocationManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				760841F0415B4FB88955A6D326C2C2CD /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				46F644FE5B26A4AECC545A1C09F5F5A0 /* Products */,
+				C80436AD5C2B2460CED957ACD451FADF /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				52E79722358D08FCAD34ABFC1A1BBECA /* Pods */,
+				6513DA9FAC6584850CF4806D7CE8D9FC /* Products */,
 				A70ECBC1399573921CD69DA3FB8A71CC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D8BB306E88CD876850004FE3FCC90876 /* GGPermission */ = {
 			isa = PBXGroup;
 			children = (
-				7AECBA61365544F357B06DE1C8710425 /* iOS */,
+				6BAC539E2097AB2708364AF37A34505F /* Core */,
+				60291C3AF342C4F20BF166701B9C5207 /* Location */,
+				A1E182399262E3548C36BFF09524232A /* Support Files */,
 			);
-			name = Frameworks;
+			name = GGPermission;
+			path = GGPermission;
+			sourceTree = "<group>";
+		};
+		E1AE3F8A060ABD632AC9531CAEEE047D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E32B02B081AABE691EA43BD30DF4089B /* GGLocationManager.podspec */,
+				BF290E5AE3F2A01275317808CAFD6F72 /* LICENSE */,
+				8FBA2D5C8B42D8F689304E740AAA353E /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2870B0C41E9F25B543F3D36A3D4812C8 /* Headers */ = {
+		01F1E6D5215C4BCB7843B22789DD6E62 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6F8844ACE4C5C798C14AF581979BDE9 /* Pods-GGLocationManager_Example-umbrella.h in Headers */,
+				2098CB9BF4D7972B1A3898E8385B21BE /* Pods-GGLocationManager_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53B778BE84E8FEBD52B18F7DED930681 /* Headers */ = {
+		0FAA460FD5FEC9C9B6B914FC13A9F7C4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F053A6043BDD7369BC6D897F3972100 /* GGLocationManager-umbrella.h in Headers */,
+				F1EFA6505F9EBD12D2D6947FA412F3DC /* GGAmapLocationProvider.h in Headers */,
+				91AF2D91E421A46B17A0D18B7851C709 /* GGLocationConfig.h in Headers */,
+				2CE5BDC827B68922583B97E778FC9525 /* GGLocationDefines.h in Headers */,
+				4FB3DC1225CB39FB677E9F4A151375D5 /* GGLocationErrors.h in Headers */,
+				6D9D8E0DEBF5FA248529D0CA885316FF /* GGLocationManager.h in Headers */,
+				08BE26D3A413671AFD0B96A5E88F6C32 /* GGLocationManager-umbrella.h in Headers */,
+				3260E800B54AC284BD883DF45492C165 /* GGLocationModel.h in Headers */,
+				BD06F5604F133C2CCA180BA40711DC3A /* GGLocationProvider.h in Headers */,
+				964F50B8BA6BE19C0D3B1AAFA81DC46C /* GGLocationRequest.h in Headers */,
+				7922A54F53156DC033264526239B8AB7 /* GGSystemLocationProvider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,25 +550,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D063367B3716788FF2DD3B8DAA6C5E24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E46D0D92CD53FA56487F298403E595 /* GGWindowDefine.h in Headers */,
+				EC497BE3221242396FE8E4DFD42996DB /* GGWindowLogHelper.h in Headers */,
+				D6CFA90B4DB470D6E68C424B580D25C9 /* GGWindowManager.h in Headers */,
+				F26FD6AA3B2B32B15388067602FEA4E9 /* GGWindowManager-umbrella.h in Headers */,
+				FCF6DF36A23CB0B9BDF66AD0044BB74C /* UIWindow+GG.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D767743ACE8AE1F3BD8F36A961370D86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F50B7F35BA539B55E08D2CE47FFC40 /* GGPermission.h in Headers */,
+				009213EFF0366690B1AC98F7F3C5FA1F /* GGPermission-umbrella.h in Headers */,
+				F2538F90BBF3A0C8EB9378EA483865E0 /* GGPermissionBaseHandler.h in Headers */,
+				7D812E12DE957E33DD4E6C28D33B72A9 /* GGPermissionBaseRequest.h in Headers */,
+				E5B11935924FD14B9BE9FA511AA3865D /* GGPermissionDefine.h in Headers */,
+				5262F4A7E2AC5419C605E190B14169AE /* GGPermissionLocationHandler.h in Headers */,
+				4EF7505F4ED7CC733CDB656FADE4A0CF /* GGPermissionLocationHelper.h in Headers */,
+				C9B42F98D35F6160E70BCB40B13F0543 /* GGPermissionLocationRequest.h in Headers */,
+				7C7FB71C1E5A9DD8702F9B065BD615C8 /* GGPermissionLogger.h in Headers */,
+				91379E17981057764CE674E2272C45DC /* GGPermissionLoggerMacros.h in Headers */,
+				6D0AD66E356BC031E9131FCD3069EDF2 /* GGPermissionProtocol.h in Headers */,
+				B8D41A32A0C1C6B96DD773E8C2A42DFB /* GGPermissionTask.h in Headers */,
+				A3C2603E82D40D288B92405475490CA9 /* GGPermissionUIHelper.h in Headers */,
+				4F7D234C1601A99D305AE5BAE87DC2E3 /* UIViewController+GGPermission.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		143A40495F668E1DE0A529EBB5063D8B /* GGLocationManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D111814244B2758007F1563EF447EDF /* Build configuration list for PBXNativeTarget "GGLocationManager" */;
+			buildConfigurationList = 64FD58473FA58DDB7A6EB15A9E62BA48 /* Build configuration list for PBXNativeTarget "GGLocationManager" */;
 			buildPhases = (
-				53B778BE84E8FEBD52B18F7DED930681 /* Headers */,
-				1DF692C9BBA547952D6993825305E094 /* Sources */,
-				377B03642F8DCF5548FF6E14E442E9E7 /* Frameworks */,
-				A55A108AC8281A19C68E9AABE1F771E2 /* Resources */,
+				0FAA460FD5FEC9C9B6B914FC13A9F7C4 /* Headers */,
+				800FF388F2047D13D6537E84BCBC3AE7 /* Sources */,
+				7080C65F9679A94DDB918914B9243E2F /* Frameworks */,
+				648D34531F22934EF9DA23FBCE3527A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B5CDBF9AC013542F99965DDA09850E8 /* PBXTargetDependency */,
+			);
+			name = GGLocationManager;
+			productName = GGLocationManager;
+			productReference = D269C033922203096647D99162EA2285 /* GGLocationManager */;
+			productType = "com.apple.product-type.framework";
+		};
+		1B7E5D0A227A1231F89942D1156855A7 /* GGWindowManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAA2376F1F6AD63D2FEE74E0E014C6D /* Build configuration list for PBXNativeTarget "GGWindowManager" */;
+			buildPhases = (
+				D063367B3716788FF2DD3B8DAA6C5E24 /* Headers */,
+				314C60B72C71491A2C94B43B963CCC1D /* Sources */,
+				B2B89CE407FB6B7F9490D45F53A31D5F /* Frameworks */,
+				9DFDD1F94AC0917C8870ADCF10D87E62 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GGLocationManager;
-			productName = GGLocationManager;
-			productReference = D269C033922203096647D99162EA2285 /* GGLocationManager */;
+			name = GGWindowManager;
+			productName = GGWindowManager;
+			productReference = 95B20B430D9F40767EBEC061687CDFC8 /* GGWindowManager */;
 			productType = "com.apple.product-type.framework";
 		};
 		522C3B05A610540970A47649713D9FA9 /* Pods-GGLocationManager_Tests */ = {
@@ -283,7 +635,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3F838C58B8032CAA7558FA044B276765 /* PBXTargetDependency */,
+				AF79B3605A8A700AE8EABE98E3F1E871 /* PBXTargetDependency */,
 			);
 			name = "Pods-GGLocationManager_Tests";
 			productName = Pods_GGLocationManager_Tests;
@@ -292,21 +644,42 @@
 		};
 		AEBC401E9C8D93C5E81A344669E9C02B /* Pods-GGLocationManager_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94A49924E71C1868108436D450C65A31 /* Build configuration list for PBXNativeTarget "Pods-GGLocationManager_Example" */;
+			buildConfigurationList = 0D54B53A33F9F5EBE09FFCFE564B23C1 /* Build configuration list for PBXNativeTarget "Pods-GGLocationManager_Example" */;
 			buildPhases = (
-				2870B0C41E9F25B543F3D36A3D4812C8 /* Headers */,
-				426A64CDEE5A6F542BDEBD3283EAC268 /* Sources */,
-				EE1FC0878B7EF2FAC2414B7F759279DD /* Frameworks */,
-				75E71544EBB50DAD521AC74631867FDE /* Resources */,
+				01F1E6D5215C4BCB7843B22789DD6E62 /* Headers */,
+				B04B08C559125E03C6577E4004E1E610 /* Sources */,
+				5EAC17ADB204CEC4E2161FCF6B9D29C7 /* Frameworks */,
+				DFEABA37C906870A7916E5D16C696EE3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2183E2792882D72023DEF062BB03901A /* PBXTargetDependency */,
+				7CC942961D860A483A6607036962674B /* PBXTargetDependency */,
+				15D23152816C78E2ED944A806DC7C647 /* PBXTargetDependency */,
+				CC4CFED01A11566DE13D59B86845F3B6 /* PBXTargetDependency */,
 			);
 			name = "Pods-GGLocationManager_Example";
 			productName = Pods_GGLocationManager_Example;
 			productReference = 56A715693469653C99D88B03BA0F0274 /* Pods-GGLocationManager_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E045EB1129C1A338D3DB826871A865EA /* GGPermission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E133CEDA71EECCDF0A9755E126A3FC99 /* Build configuration list for PBXNativeTarget "GGPermission" */;
+			buildPhases = (
+				D767743ACE8AE1F3BD8F36A961370D86 /* Headers */,
+				694C908EF89A0A7698CCC19C8297B214 /* Sources */,
+				0D4742C5F275F2B3F8B6334512335CEE /* Frameworks */,
+				486841306CA472D88FFEB2D34A654D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B3A6A3E2A103ACFA06138B9DB7FAC90 /* PBXTargetDependency */,
+			);
+			name = GGPermission;
+			productName = GGPermission;
+			productReference = 245BFDF0B5AE44C587BAEB5AC49CFBB8 /* GGPermission */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -329,11 +702,13 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 100;
-			productRefGroup = 46F644FE5B26A4AECC545A1C09F5F5A0 /* Products */;
+			productRefGroup = 6513DA9FAC6584850CF4806D7CE8D9FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				143A40495F668E1DE0A529EBB5063D8B /* GGLocationManager */,
+				E045EB1129C1A338D3DB826871A865EA /* GGPermission */,
+				1B7E5D0A227A1231F89942D1156855A7 /* GGWindowManager */,
 				AEBC401E9C8D93C5E81A344669E9C02B /* Pods-GGLocationManager_Example */,
 				522C3B05A610540970A47649713D9FA9 /* Pods-GGLocationManager_Tests */,
 			);
@@ -341,14 +716,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		75E71544EBB50DAD521AC74631867FDE /* Resources */ = {
+		486841306CA472D88FFEB2D34A654D6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A55A108AC8281A19C68E9AABE1F771E2 /* Resources */ = {
+		648D34531F22934EF9DA23FBCE3527A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFDD1F94AC0917C8870ADCF10D87E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEABA37C906870A7916E5D16C696EE3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,20 +754,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1DF692C9BBA547952D6993825305E094 /* Sources */ = {
+		314C60B72C71491A2C94B43B963CCC1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11AF245AAF4A7458C331096772994BD0 /* GGLocationManager-dummy.m in Sources */,
-				0963964CFC3E3AE1912F9DA0134FE13B /* ReplaceMe.m in Sources */,
+				2C5FD970F804E0E062CCE3451EB25220 /* GGWindowDefine.m in Sources */,
+				0BFCCB1B8309CFAC7E962B32A3C75272 /* GGWindowLogHelper.m in Sources */,
+				906477DCDB986ED973AF9F306F05AB7D /* GGWindowManager.m in Sources */,
+				4487E77553773C27961207E8C14A1389 /* GGWindowManager-dummy.m in Sources */,
+				DE27361A492EC037AAE712C586DF82C9 /* UIWindow+GG.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		426A64CDEE5A6F542BDEBD3283EAC268 /* Sources */ = {
+		694C908EF89A0A7698CCC19C8297B214 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				911404968958DEC6BA9B41BDBD5A6D76 /* Pods-GGLocationManager_Example-dummy.m in Sources */,
+				53384FD018D8060BF0DBA984A95B5229 /* GGPermission.m in Sources */,
+				419FD519F9E06097C9493C0888E6AD69 /* GGPermission-dummy.m in Sources */,
+				2313B2129A20FED14B94568E19961984 /* GGPermissionBaseHandler.m in Sources */,
+				2D4C2BF8D44B5E117A4DC66FE40B122B /* GGPermissionBaseRequest.m in Sources */,
+				3923BE7867732F3478E9D42F7D55E1A8 /* GGPermissionLocationHandler.m in Sources */,
+				2CBC4168505DC84A070D5FBB0E0CA90C /* GGPermissionLocationHelper.m in Sources */,
+				EA40BCFE5651DE1343959E2FD2BACC92 /* GGPermissionLocationRequest.m in Sources */,
+				162514694FBCAA43A323D31D4051A166 /* GGPermissionLogger.m in Sources */,
+				F0170AC4108E713375072A09F205E4BB /* GGPermissionLoggerMacros.m in Sources */,
+				04218B9002D678F73E80EE82A24C9CD1 /* GGPermissionTask.m in Sources */,
+				EF2793C8CD983E634E63875FD174F3E4 /* GGPermissionUIHelper.m in Sources */,
+				655BB58AA705F532CF947F6729A1A761 /* UIViewController+GGPermission.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800FF388F2047D13D6537E84BCBC3AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D482C927676DE0F2214F544F009A526 /* GGAmapLocationProvider.m in Sources */,
+				DD082EB776C763AACE9947D0D31A003F /* GGLocationConfig.m in Sources */,
+				0CE1F6D24855EAC5C401F37292180D8C /* GGLocationErrors.m in Sources */,
+				87637D65FD1A74A3E2D4CC2A14DBC98E /* GGLocationManager.m in Sources */,
+				45BACAB1004089BE6F70F73945701675 /* GGLocationManager-dummy.m in Sources */,
+				6E14CD1972BE05222249CCF79ECFF265 /* GGLocationModel.m in Sources */,
+				C4FE1A4FB07829A282BA61FF13F6A971 /* GGLocationRequest.m in Sources */,
+				E3111EBE2D650AE6430440EB819A0A9D /* GGSystemLocationProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,91 +808,135 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B04B08C559125E03C6577E4004E1E610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C06B5A47FC5117C3C24AE890096D87 /* Pods-GGLocationManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2183E2792882D72023DEF062BB03901A /* PBXTargetDependency */ = {
+		15D23152816C78E2ED944A806DC7C647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GGPermission;
+			target = E045EB1129C1A338D3DB826871A865EA /* GGPermission */;
+			targetProxy = E1E8406F9D93C75475AC98D77688F9DF /* PBXContainerItemProxy */;
+		};
+		4B5CDBF9AC013542F99965DDA09850E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GGPermission;
+			target = E045EB1129C1A338D3DB826871A865EA /* GGPermission */;
+			targetProxy = 7ECE094EE9D2BA5C477E7BE2C49FFAA1 /* PBXContainerItemProxy */;
+		};
+		7CC942961D860A483A6607036962674B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GGLocationManager;
 			target = 143A40495F668E1DE0A529EBB5063D8B /* GGLocationManager */;
-			targetProxy = 2DEDCEC31A39BB5E0844CFDEC806539C /* PBXContainerItemProxy */;
+			targetProxy = 6959CD0066664F3B90FC8E9E73CBFEFD /* PBXContainerItemProxy */;
 		};
-		3F838C58B8032CAA7558FA044B276765 /* PBXTargetDependency */ = {
+		9B3A6A3E2A103ACFA06138B9DB7FAC90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GGWindowManager;
+			target = 1B7E5D0A227A1231F89942D1156855A7 /* GGWindowManager */;
+			targetProxy = 009346BAF6031BD6BC10E0D791118175 /* PBXContainerItemProxy */;
+		};
+		AF79B3605A8A700AE8EABE98E3F1E871 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GGLocationManager_Example";
 			target = AEBC401E9C8D93C5E81A344669E9C02B /* Pods-GGLocationManager_Example */;
-			targetProxy = 3E6E3A55F2778991E22A04D0321C59D3 /* PBXContainerItemProxy */;
+			targetProxy = F9B543661D7F6D02CCBB52D8CB83B5F8 /* PBXContainerItemProxy */;
+		};
+		CC4CFED01A11566DE13D59B86845F3B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GGWindowManager;
+			target = 1B7E5D0A227A1231F89942D1156855A7 /* GGWindowManager */;
+			targetProxy = BA27D05726D0BB15CF82C6C75ACD5143 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+		0B118542EE560ED0F45E5FBC20CC4C9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD42DC5096038238C4C2D840ED253970 /* GGLocationManager.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GGLocationManager/GGLocationManager-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GGLocationManager/GGLocationManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGLocationManager/GGLocationManager.modulemap";
+				PRODUCT_MODULE_NAME = GGLocationManager;
+				PRODUCT_NAME = GGLocationManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		156759228F2F645D63796C024663F4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3554641B8C6A01D1C8C47FF4D6C77F65 /* GGWindowManager.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GGWindowManager/GGWindowManager-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GGWindowManager/GGWindowManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGWindowManager/GGWindowManager.modulemap";
+				PRODUCT_MODULE_NAME = GGWindowManager;
+				PRODUCT_NAME = GGWindowManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		9C140A4B3FE7A0231E1104A748BF9F97 /* Debug */ = {
+		24B497324983512497E839B84F42079C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CF99D84387840301E31D678E113C381A /* Pods-GGLocationManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -488,7 +950,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-GGLocationManager_Example/Pods-GGLocationManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GGLocationManager_Example/Pods-GGLocationManager_Example.modulemap";
@@ -505,11 +967,12 @@
 			};
 			name = Debug;
 		};
-		B99C7C3130E3A0B4B011E72AA9CC3501 /* Release */ = {
+		4044AE75163E780DBB0AFDD79837E329 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 19BC4A4D3C9E826FD7A8F819E873C4B2 /* Pods-GGLocationManager_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -523,7 +986,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-GGLocationManager_Tests/Pods-GGLocationManager_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GGLocationManager_Tests/Pods-GGLocationManager_Tests.modulemap";
@@ -541,10 +1004,12 @@
 			};
 			name = Release;
 		};
-		BD44632BCFCCD38A131301652CB2307C /* Release */ = {
+		4D641714E231E646E4B1BB9927F4EA06 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 752B52FF8DE651E3739425E5932EEA64 /* GGLocationManager.release.xcconfig */;
+			baseConfigurationReference = 4D7DFFEF9FCC6B35A122487BFEB872DD /* Pods-GGLocationManager_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -556,15 +1021,87 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/GGLocationManager/GGLocationManager-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/GGLocationManager/GGLocationManager-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GGLocationManager_Example/Pods-GGLocationManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GGLocationManager/GGLocationManager.modulemap";
-				PRODUCT_MODULE_NAME = GGLocationManager;
-				PRODUCT_NAME = GGLocationManager;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGLocationManager_Example/Pods-GGLocationManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		657686B60A531AA28E94228BCF538C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBE083A9BF58B1295C45E67C2CFD782 /* Pods-GGLocationManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GGLocationManager_Tests/Pods-GGLocationManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGLocationManager_Tests/Pods-GGLocationManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A0BC72108BAB8CEDC5F6514246AA0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D659B78F7C4D0C35FC169F905F302420 /* GGPermission.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GGPermission/GGPermission-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GGPermission/GGPermission-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGPermission/GGPermission.modulemap";
+				PRODUCT_MODULE_NAME = GGPermission;
+				PRODUCT_NAME = GGPermission;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -577,7 +1114,43 @@
 			};
 			name = Release;
 		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		87C2DE20709B5D5513DABF3D62121CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90FB7EC55EC2D9C18EDBAAD4F41B5CC8 /* GGPermission.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GGPermission/GGPermission-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GGPermission/GGPermission-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGPermission/GGPermission.modulemap";
+				PRODUCT_MODULE_NAME = GGPermission;
+				PRODUCT_NAME = GGPermission;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -630,7 +1203,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -643,10 +1216,109 @@
 			};
 			name = Debug;
 		};
-		E89E6601579E8127C3CB63F370ED1165 /* Debug */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EA930B213480EFA2E222E40176540E2 /* GGLocationManager.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E627D4D52A114150AB8EEDE2B820B27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF90D2C6C17D14F3B3CD2988DBC0C120 /* GGWindowManager.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GGWindowManager/GGWindowManager-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GGWindowManager/GGWindowManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGWindowManager/GGWindowManager.modulemap";
+				PRODUCT_MODULE_NAME = GGWindowManager;
+				PRODUCT_NAME = GGWindowManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD40A42238AFDD6DA991BC48F4765F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390235C46E262B8DA6D39F4D4B2CB168 /* GGLocationManager.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -662,7 +1334,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/GGLocationManager/GGLocationManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GGLocationManager/GGLocationManager.modulemap";
 				PRODUCT_MODULE_NAME = GGLocationManager;
@@ -673,108 +1345,47 @@
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ECC08B1342CB7A5D865463F6E877C26B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D7DFFEF9FCC6B35A122487BFEB872DD /* Pods-GGLocationManager_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-GGLocationManager_Example/Pods-GGLocationManager_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GGLocationManager_Example/Pods-GGLocationManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		FD1FABF5E1C46582C1363743E05AA249 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DBE083A9BF58B1295C45E67C2CFD782 /* Pods-GGLocationManager_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-GGLocationManager_Tests/Pods-GGLocationManager_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GGLocationManager_Tests/Pods-GGLocationManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0D54B53A33F9F5EBE09FFCFE564B23C1 /* Build configuration list for PBXNativeTarget "Pods-GGLocationManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B497324983512497E839B84F42079C /* Debug */,
+				4D641714E231E646E4B1BB9927F4EA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D111814244B2758007F1563EF447EDF /* Build configuration list for PBXNativeTarget "GGLocationManager" */ = {
+		64FD58473FA58DDB7A6EB15A9E62BA48 /* Build configuration list for PBXNativeTarget "GGLocationManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E89E6601579E8127C3CB63F370ED1165 /* Debug */,
-				BD44632BCFCCD38A131301652CB2307C /* Release */,
+				0B118542EE560ED0F45E5FBC20CC4C9A /* Debug */,
+				FD40A42238AFDD6DA991BC48F4765F53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94A49924E71C1868108436D450C65A31 /* Build configuration list for PBXNativeTarget "Pods-GGLocationManager_Example" */ = {
+		9AAA2376F1F6AD63D2FEE74E0E014C6D /* Build configuration list for PBXNativeTarget "GGWindowManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C140A4B3FE7A0231E1104A748BF9F97 /* Debug */,
-				ECC08B1342CB7A5D865463F6E877C26B /* Release */,
+				E627D4D52A114150AB8EEDE2B820B27C /* Debug */,
+				156759228F2F645D63796C024663F4B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -782,8 +1393,17 @@
 		AD4301A95CBF4CCF3F1330F7E1C37CDD /* Build configuration list for PBXNativeTarget "Pods-GGLocationManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD1FABF5E1C46582C1363743E05AA249 /* Debug */,
-				B99C7C3130E3A0B4B011E72AA9CC3501 /* Release */,
+				657686B60A531AA28E94228BCF538C17 /* Debug */,
+				4044AE75163E780DBB0AFDD79837E329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E133CEDA71EECCDF0A9755E126A3FC99 /* Build configuration list for PBXNativeTarget "GGPermission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C2DE20709B5D5513DABF3D62121CB3 /* Debug */,
+				7A0BC72108BAB8CEDC5F6514246AA0B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

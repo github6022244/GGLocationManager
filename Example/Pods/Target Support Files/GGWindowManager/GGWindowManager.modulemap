@@ -1,0 +1,6 @@
+framework module GGWindowManager {
+  umbrella header "GGWindowManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
